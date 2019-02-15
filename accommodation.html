@@ -1,0 +1,305 @@
+<!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" --><!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="" xmlns:fb="http://ogp.me/ns/fb#">
+<!---<![endif]--->
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<meta name="robots" content="noindex" />-->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>DEBS 2015 - Accommodation</title>
+<style>
+      #map-canvas {
+        width: 400px;
+        height: 350px;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(59.930264,10.714609),
+          zoom: 12,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+		var anker = new google.maps.LatLng(59.917714,10.758104);
+		var uleval = new google.maps.LatLng(59.949433,10.735573);
+		var munch = new google.maps.LatLng(59.917095,10.742046);
+		var ifi = new google.maps.LatLng(59.943634,10.718324);
+		
+		var marker1 = new google.maps.Marker({position: anker, map: map,title: 'Anker Hotel'});
+		var marker2 = new google.maps.Marker({position: uleval, map: map,title: 'Thon Hotel Ullevaal'});
+		var marker3 = new google.maps.Marker({position: munch, map: map,title: 'Thon Hotel Munch'});
+   		var image = 'images/venueicon.png';
+		var marker4 = new google.maps.Marker({position: ifi, map: map,title: 'Conference Venue',icon: image});
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+<!-- InstanceEndEditable -->
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="layout.css" rel="stylesheet" type="text/css">
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- InstanceParam name="Side Bar" type="boolean" value="true" -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55417145-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script src="respond.min.js"></script>
+
+
+    
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" src="random-image.js" charset="utf-8"></script>
+
+<div  class="gridContainer clearfix">
+  <div id="wrapper">
+  <div id="banner">
+   	<img class="random-banner" src="images/banner0.jpg" />
+  	<header>
+    	<div id="title">DEBS 2015</div>
+        <div id="subtitle">The 9th ACM International Conference on Distributed Event-Based Systems</div>
+        <div id="location">Oslo, Norway, June 29 - July 3, 2015 </div>
+    </header>
+   	<!--<img src="images/banner1.jpg" /> -->
+  </div>
+  	<nav id="menu" class="default">
+    	<ul>
+        	<li><a href="index.html">Home</a></li>
+        	<li><a href="accommodation.html#">Calls</a>
+            	<ul>
+                	<li><a href="call-research.html">Call for Research Papers</a>
+                    <li><a href="call-industry.html">Call for Industry Papers</a>
+                    <li><a href="call-tutorials.html">Call for Tutorials</a>
+                    <li><a href="call-grand-challenge.html">Call for Grand Challenge Solutions</a>
+                    <li><a href="call-posters.html">Call for Posters and Demos</a>
+                    <li><a href="call-doctoral.html">Call for Doctoral Symposium</a>
+                </ul>
+            </li>
+        	<li><a href="accommodation.html#">Conference Information</a>
+            	<ul>
+                	<li><a href="important-dates.html">Important Dates</a>
+                    <li><a href="submission-guidelines.html">Submission Guidelines</a>
+                    <li><a href="venue-information.html">Venue Information</a>
+                    <li><a href="tourist-information.html">Tourist and Practical Information</a>
+                    <li><a href="visa-information.html">Visa Information</a>
+                    <li><a href="past-debs.html">Past DEBS Events</a>
+                </ul>
+            </li>
+        	<li><a href="accommodation.html#">Program</a>
+            	<ul>
+                	<li><a href="keynote-speakers.html">Keynote Speakers</a>
+                    <li><a href="tutorials.html">Tutorials</a>
+                    <li><a href="full-program.html">Full Program</a>
+                    <li><a href="photo-gallery.html">Photo Gallery</a>
+                </ul>
+            </li>
+        	<li><a href="accommodation.html#">Registration</a>
+            	<ul>
+                	<li><a href="registration.html">Conference Registration</a>
+                    <li><a href="accommodation.html#">Accommodation</a>
+                    <li><a href="scholarship.html">Scholarships</a>
+                </ul>
+            </li>
+        	<li><a href="accommodation.html#">Committees</a>
+            	<ul>
+                	<li><a href="organizing-committee.html">Organizing Committee</a>
+                    <li><a href="program-committee.html">Program Committee</a>
+                </ul>
+            </li>
+        	<li><a href="support.html">Support DEBS 2015</a></li>            
+        </ul>
+    </nav>
+  <div><!-- InstanceBeginEditable name="Main Text" -->
+    <article class="editable" id="main">
+      <h2>Accommodation</h2>
+      <p>We have arranged for a number of hotel accommodations in different categories. 
+	      Selected hotels are easily reachable from the conference location. 
+		  <b>The selected hotels have limited capacity. 
+		  It is recommended to make your hotel booking as early as possible.</b>
+		  The quoted rates are available from June 28 to July 3, 2015 and include <i>breakfast buffet and wireless internet</i>.
+		  <br><br>
+		  Please mention the reservation code for your reservation and note that 
+		  the rates are valid for booking <b>before May 27, 2015.</b></p>
+		  
+		  
+		  <div class="std_table std_tabe_dates">
+<table style="width:100%">
+<tbody>
+  <tr>
+    <td><b>Hotel</b></td>
+    <td><b>Category</b></td>
+    <td><b>Price</b></td>
+    <td><b>Reservation Code</b></td>
+	<td><b>Booking requests should be sent to</b></td>
+  </tr>
+   <tr>
+    <td>Thon Hotel Ullevaal</td>
+    <td>&#9733;&#9733;&#9733;&#9733;</td>
+    <td style="white-space:nowrap;">925 NOK</td>
+    <td>15475973</td>
+    <td>ullevaal.bookingsjef@thonhotels.no</td>
+  </tr>
+ <tr>
+    <td>Thon Hotel Munch</td>
+    <td>&#9733;&#9733;&#9733;</td>
+    <td style="white-space:nowrap;">710 NOK</td>
+    <td>15510473</td>
+    <td>munch.bookingsjef@thonhotels.no</td>
+  </tr>
+    <tr>
+    <td>Anker Hotel</td>
+    <td>&#9733;&#9733;&#9733;</td>
+    <td style="white-space:nowrap;">690 NOK</td>
+    <td>261211</td>
+    <td>booking@anker.oslo.no</td>
+  </tr>
+</tbody>
+</table>
+<br><br>
+<b>Thon Hotel Ullevaal</b>: Thon Hotel Ullevaal is a modern conference hotel adjacent to Ullevaal Stadion, 
+Norway's national football arena. The hotel is located quite close to the conference venue. Central Oslo 
+can be reached in 15 minutes by the Metro from this hotel. It takes about 
+9 minutes to get to the conference venue from this hotel: 7 minutes walk from hotel to the closest metro station (Ullevål stadion) and 2 minutes from Ullevål stadion to Forskningsparken by train.  
+
+<br><br>
+
+<b>Thon Hotel Munch</b>:Thon Hotel Munch is a newly renovated bed and breakfast hotel, located 
+in a calm side street in the middle of Oslo city centre. There are two transportation 
+options for getting to the conference venue from this hotel: 1) tram lines 17 and 18: it takes about 20 minutes 
+from hotel (stop Tinghuset) to the the conference venue (stop Forskningsparken), 2) Metro lines 4 and 6: 
+it takes about 20 minutes from hotel (station Stortinget) to the the conference venue (station Forskningsparken).
+
+<br><br>
+
+ 
+<b>Anker Hotel</b>: This hotel is a 15-minute walk from Oslo’s busy main street, Karl Johans Gate. 
+With tram lines 17 (goes every 10 minutes), it takes 21 minutes from 
+the hotel (stop Hausmanns gate) to the the conference venue (stop Forskningsparken). 
+
+<br><br>
+
+<br><br>
+Google map with the location of conference venue and the three hotels:
+<div id="map-canvas"></div>
+
+</div>
+
+If you are looking for <b>luxury or first class</b> hotels, we can suggest the following:
+<ul>
+<li><a href="http://www.grand.no/en/" target="_blank">Grand Hotel</a> (&#9733;&#9733;&#9733;&#9733;&#9733;), located in Oslo’s city centre, 500 metres from the Royal Palace and National Theatre.</li>
+<li><a href="http://www.hotelcontinental.no/" target="_blank">Hotel Continental</a> (&#9733;&#9733;&#9733;&#9733;&#9733;), located only 150 metres from Oslo’s main street, Karl Johan.</li>
+<li><a href="http://www.radissonblu.com/plazahotel-oslo/" target="_blank">Radisson Blu Plaza Hotel</a> (&#9733;&#9733;&#9733;&#9733;), located in Oslo’s city centre.</li>
+<li><a href="https://www.nordicchoicehotels.com/clarion/clarion-hotel-royal-christiania/" target="_blank">Clarion Hotel Royal Christiania</a> (&#9733;&#9733;&#9733;&#9733;), located in Oslo’s city centre.</li>
+</ul>
+<br>
+
+For <b>budget accommodation</b>, we recommend: 
+<ul>
+<li><a href="http://www.comforthotelxpress.no/" target="_blank">Comfort Hotel Xpress</a> (~680 NOK). Trendy budget hotel in the city centre. Closest metro: Stortinget</li>
+<li><a href="http://www.perminalen.no/" target="_blank">Perminalen</a> (~600 NOK). Budget hotel in the city centre. Closest metro: Stortinget</li>
+<li><a href="http://www.ankerhostel.no/en/" target="_blank">Anker hostel</a> is a youth hostel (as cheap as 230 NOK in an 8 bedded room) but also offers private twin rooms (FROM 620 NOK). Closest metro: Jernbanetorget (Oslo Central Station)</li>
+<li>Budget accommodation information from the official tourist information website: <a href="http://www.visitoslo.com/en/your-oslo/on-a-budget/accommodation/" target="_blank">www.visitoslo.com</a> </li>
+<li>An alternative for groups staying a week is to rent an apartment <a href="https://www.airbnb.com/s/Oslo--Norway?checkin=06%2F28%2F2015&checkout=07%2F03%2F2015&guests=3&ss_id=6vfvae0i" target="_blank">http://www.airbnb.com</a> </li>
+</ul>
+
+    </article>
+  <!-- InstanceEndEditable -->
+  <aside id="sidebar">
+    <div class="sig_logo"><a href="http://www.sigmod.org/"><img src="images/sigmodlogo.gif"></a> <a href="http://www.sigsoft.org/"><img src="images/sigsoft.logo.gif"></a></div>
+    <h3> Important Dates*</h3>
+    <div class="important_dates">
+      <table>
+        <tr>
+          <td>Research Track, Abstract Submission</td>
+          <td>February 22<sup>nd</sup>, 2015</td>
+        </tr>
+        <tr>
+          <td>Research Track, Full Paper Submission</td>
+          <td>February 27<sup>th</sup>, 2015</td>
+        </tr>
+        <tr>
+          <td>Industry Track, Full Paper Submission</td>
+          <td>February 27<sup>th</sup>, 2015</td>
+        </tr>
+      </table>
+    </div>
+    <div class="table_caption">* For all the dates, see <a href="important-dates.html">here</a></div>
+    <hr>
+    <h3>DEBS on Social Media</h3>
+    <p>    
+    <div class="fb-like" data-href="https://www.facebook.com/ACM.DEBS" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+    <p></p>
+    <script src="http://platform.linkedin.com/in.js" type="text/javascript">
+  lang: en_US
+      </script>
+    <script type="IN/Share" data-url="http://www.linkedin.com/groups/ACM-DEBS-4747505" data-counter="right"></script>
+    <div class="g-follow" data-annotation="bubble" data-height="20" data-href="https://plus.google.com/117785100133826794399" data-rel="publisher"></div>
+    <script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+      </script>
+    <p><a class="twitter-timeline"  href="https://twitter.com/ACM_DEBS"  data-widget-id="446929273132036096">Tweets by @ACM_DEBS</a></p>
+    <div>
+      <a href="http://www.mn.uio.no/ifi/english/"><img src="images/ifi_logo.gif" width="12%"></a> 
+      <a href="http://www.uio.no/english/"><img src="images/uio_seal_a_eng.png" width="80%"></a>
+      <a href="http://www.uio.no/english/"><img src="images/nfr.jpg" width="70%"></a>
+    </div>
+
+    <hr>
+    <h3>DEBS 2015 Sponsors</h3>
+    <h4>Gold:</h4>
+    <div>
+      <a href="http://www.tibco.com/"><img src="images/tibco_logo.png" width="122p"></a>
+      <a href="http://www.wso2.com/"><img src="images/WSO2logo.png" height="60p"></a>
+    </div>
+    <h4>Silver:</h4>
+    <div>
+      <a href="http://www.cisco.com/"><img src="images/cisco.png" height="55p" style="padding-top:2px"></a>
+    </div>
+  </aside>
+  </div>
+  <div>
+  	<footer>
+  		<p>&nbsp;&copy; Copyright 2015 The 9th ACM International Conference on Distributed Event Based Systems (DEBS 2015)</p>
+  	</footer>
+  </div>
+  </div>
+</div>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="nagging-menu.js" charset="utf-8"></script>
+
+</body>
+<!-- InstanceEnd --></html>
